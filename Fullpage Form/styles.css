@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  text-align: center;
+}
+
+.login-form {
+  position: relative;
+  box-sizing: border-box;
+  padding: 2rem 1.2rem;
+  transition: 0.5s;
+}
+
+.login-form:hover {
+  box-shadow: 0 0 20px;
+  border-radius: 1rem 2rem 1rem 1rem;
+}
+
+.login-form h1 {
+  margin: 0 0 1.2rem;
+  color: #2f4f4f;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 0.9rem 1.8rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  background: url(bg.jpg) no-repeat;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.login-form input::placeholder {
+  color: #2f4f4f;
+}
+
+.login-form input[id="login-button"] {
+  color: #a9a9a9;
+  background: #2f4f4f;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form input[id="login-button"]:hover {
+  background: #708090;
+}
+
+.login-form a {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  color: #708090;
+}
